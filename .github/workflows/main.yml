@@ -7,12 +7,12 @@ on:
 
 
 
- jobs:
-   build:
-     runs-on: ubuntu-latest
+jobs:
+  build:
+    runs-on: ubuntu-latest
 
-     steps:
-       - name: 'Printing folder contents'
-         run: ls
+    steps:
+      - name: 'Printing folder contents'
+        run: ls
         
       
